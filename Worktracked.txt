@@ -1,0 +1,6 @@
+March 27:
+Created repo 
+Created Finnhub account 
+learned how to use there api/python library 
+Learned about UNIX timestamps
+Pulled first data  

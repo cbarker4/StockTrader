@@ -4,3 +4,4 @@ Created Finnhub account
 learned how to use there api/python library 
 Learned about UNIX timestamps
 Pulled first data  
+Then made it so i could pull a years worth of data from any ticker and creaqted a file to get all the tickers

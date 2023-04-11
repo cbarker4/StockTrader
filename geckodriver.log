@@ -1,0 +1,174 @@
+1681182525486	geckodriver	INFO	Listening on 127.0.0.1:51245
+1681182525520	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "39279" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehYbobw"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681182525895	Marionette	INFO	Marionette enabled
+1681182525897	Marionette	INFO	Listening on port 34537
+Read port: 34537
+WebDriver BiDi listening on ws://127.0.0.1:39279
+1681182526006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehYbobw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39279/devtools/browser/7e0a04fe-fac1-4530-a048-02c19f851480
+1681182552770	Marionette	INFO	Stopped listening on port 34537
+1681182582418	geckodriver	INFO	Listening on 127.0.0.1:40179
+1681182582454	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "46405" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelpA3fF"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681182582838	Marionette	INFO	Marionette enabled
+1681182582840	Marionette	INFO	Listening on port 40117
+Read port: 40117
+WebDriver BiDi listening on ws://127.0.0.1:46405
+1681182582925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelpA3fF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46405/devtools/browser/869e6ae4-1fc0-40b3-af5a-36d36cbe4263
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 594"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:594:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 594, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 594: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1681182660281	geckodriver	INFO	Listening on 127.0.0.1:40123
+1681182660296	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "50029" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAeKUHV"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681182660759	Marionette	INFO	Marionette enabled
+1681182660761	Marionette	INFO	Listening on port 36981
+Read port: 36981
+WebDriver BiDi listening on ws://127.0.0.1:50029
+1681182660869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: GFX: RenderThread detected a device reset in PostUpdate
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAeKUHV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50029/devtools/browser/43ab1126-eadc-4dc1-bfe8-fc0428cad43a
+1681182699779	Marionette	INFO	Stopped listening on port 36981
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1681182700694	Marionette	INFO	Stopped listening on port 40117
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1681182704599	geckodriver	INFO	Listening on 127.0.0.1:41447
+1681182704635	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "52401" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilersK4zY"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681182704866	Marionette	INFO	Marionette enabled
+1681182704868	Marionette	INFO	Listening on port 39321
+Read port: 39321
+WebDriver BiDi listening on ws://127.0.0.1:52401
+1681182704954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilersK4zY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52401/devtools/browser/45ea26fd-bc17-4d95-859c-f89aec247965
+1681182779032	Marionette	INFO	Stopped listening on port 39321
+1681182780377	geckodriver	INFO	Listening on 127.0.0.1:51541
+1681182780412	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "59297" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9qbE4i"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681182780852	Marionette	INFO	Marionette enabled
+1681182780878	Marionette	INFO	Listening on port 34477
+Read port: 34477
+WebDriver BiDi listening on ws://127.0.0.1:59297
+1681182781027	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9qbE4i/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59297/devtools/browser/e4cd62e0-d979-4ec1-a00c-d6ebbac78169
+1681182825315	geckodriver	INFO	Listening on 127.0.0.1:40841
+1681182825354	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "52165" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHQMUeJ"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681182825903	Marionette	INFO	Marionette enabled
+1681182825905	Marionette	INFO	Listening on port 34629
+Read port: 34629
+WebDriver BiDi listening on ws://127.0.0.1:52165
+1681182825998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHQMUeJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52165/devtools/browser/6a9a6da3-b0c9-4efa-b49d-c32e2a1b997e
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 594"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:594:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 594, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 594: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1681182888194	geckodriver	INFO	Listening on 127.0.0.1:57065
+1681182888228	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "52373" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCnqDUG"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681182888531	Marionette	INFO	Marionette enabled
+1681182888533	Marionette	INFO	Listening on port 43813
+Read port: 43813
+WebDriver BiDi listening on ws://127.0.0.1:52373
+1681182888662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCnqDUG/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1681182889476	Marionette	INFO	Stopped listening on port 34477
+DevTools listening on ws://127.0.0.1:52373/devtools/browser/949bea96-0f7f-4448-b256-d09e7923c3ab
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1681182902314	geckodriver	INFO	Listening on 127.0.0.1:37223
+1681182902353	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "57107" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefWml9T"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681182902920	Marionette	INFO	Marionette enabled
+1681182902922	Marionette	INFO	Listening on port 42771
+Read port: 42771
+WebDriver BiDi listening on ws://127.0.0.1:57107
+1681182903032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefWml9T/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57107/devtools/browser/50aae49f-268d-41f4-a72d-e0bdfec91895
+1681182931805	geckodriver	INFO	Listening on 127.0.0.1:57057
+1681182931842	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "52075" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletsHYdN"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681182932076	Marionette	INFO	Marionette enabled
+1681182932077	Marionette	INFO	Listening on port 44065
+Read port: 44065
+WebDriver BiDi listening on ws://127.0.0.1:52075
+1681182932245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletsHYdN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52075/devtools/browser/3850bd75-4aca-4b73-83f1-7cf78877654c
+1681182935157	Marionette	INFO	Stopped listening on port 42771
+1681182990701	Marionette	INFO	Stopped listening on port 44065
+1681183003613	geckodriver	INFO	Listening on 127.0.0.1:57731
+1681183003645	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "34947" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2ET9tG"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681183004161	Marionette	INFO	Marionette enabled
+1681183004163	Marionette	INFO	Listening on port 42107
+WebDriver BiDi listening on ws://127.0.0.1:34947
+Read port: 42107
+1681183004376	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2ET9tG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34947/devtools/browser/a774dbc3-54e6-45c9-b9a8-655269cd4848
+1681183028026	geckodriver	INFO	Listening on 127.0.0.1:52371
+1681183028064	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "43199" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7FKhoi"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681183028492	Marionette	INFO	Marionette enabled
+1681183028494	Marionette	INFO	Listening on port 43625
+Read port: 43625
+WebDriver BiDi listening on ws://127.0.0.1:43199
+1681183028608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1681183028999	Marionette	INFO	Stopped listening on port 42107
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7FKhoi/search.json.mozlz4", (void 0)))
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+DevTools listening on ws://127.0.0.1:43199/devtools/browser/a448e881-d1aa-49b7-b676-c78b4746e3ec
+1681183040111	Marionette	INFO	Stopped listening on port 43625
+1681183043680	Marionette	INFO	Stopped listening on port 34629
+1681183065371	geckodriver	INFO	Listening on 127.0.0.1:36641
+1681183065416	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "58843" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebxYWoT"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681183065646	Marionette	INFO	Marionette enabled
+1681183065648	Marionette	INFO	Listening on port 45901
+Read port: 45901
+WebDriver BiDi listening on ws://127.0.0.1:58843
+1681183065804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebxYWoT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58843/devtools/browser/2116d23d-b361-4a27-965e-6dadf5476963
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 594"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:594:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 594, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 594: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1681183113471	Marionette	INFO	Stopped listening on port 45901
+1681183123937	geckodriver	INFO	Listening on 127.0.0.1:54771
+1681183123981	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "52041" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileg1QOTu"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1681183124499	Marionette	INFO	Marionette enabled
+1681183124501	Marionette	INFO	Listening on port 39715
+Read port: 39715
+WebDriver BiDi listening on ws://127.0.0.1:52041
+1681183124605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileg1QOTu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52041/devtools/browser/56420139-b762-42fe-9046-1297e3509bf2
+1681183273699	Marionette	INFO	Stopped listening on port 39715

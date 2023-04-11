@@ -50,13 +50,23 @@ def lastYearOfData(ticker):
 
 
 all_tickers = open("DataColection/nasdaq_tickers.txt").readlines()
-
+start = open("DataColection/lastpulled.txt").read()
+print(start)
+skip = True
 for val in all_tickers:
-    val = val.replace("\n","")
-    lastYearOfData(val)
-    time.sleep(2)
-    print(val)
-
+    if start in val:
+        print("val")
+        skip = False
+   
+    if not skip:
+        try:
+            val = val.replace("\n","")
+            lastYearOfData(val)
+            open("DataColection/lastpulled.txt",'w').write(val)
+            time.sleep(1.1)
+            print(val)
+        except:
+            pass
 
 
 

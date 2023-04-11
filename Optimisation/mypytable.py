@@ -551,10 +551,12 @@ class MyPyTable:
         for row in self.data:
             line = []
             for val in row:
+            
                 if intiger==False:
                     line.append((int(((val-min)/(max-min)*1000)))/10)
                 else :
                     line.append(int((int(((val-min)/(max-min)*1000)))/10))
+            
                 
             table.data.append(copy.deepcopy(line))
         return table

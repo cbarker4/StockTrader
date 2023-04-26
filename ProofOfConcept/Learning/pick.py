@@ -1,0 +1,2 @@
+
+TickerPuller.today("AAPL")

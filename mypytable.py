@@ -559,6 +559,8 @@ class MyPyTable:
             table.data.append(copy.deepcopy(line))
         return table
 
+    
+
 
 
             

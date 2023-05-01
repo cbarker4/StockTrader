@@ -3,7 +3,8 @@ import csv
 import random as rd
 from statistics import mean
 from statistics import median
-
+from sklearn import preprocessing
+import numpy as np
 #from tabulate import tabulate # uncomment if you want to use the pretty_print() method
 # install tabulate with: pip install tabulate
 
@@ -82,17 +83,41 @@ class MyPyTable:
         len(self.column_names)
         return len(self.data),len(self.column_names)
 
-    def get_rows_with_val(self,col,val):
+    def get_rows_with_val(self,col_identifier,val,as_list=True):
         """ 
         Returns: a mypytable with only the value in the requested row 
         """
-        
-        mt = MyPyTable()
-        
-        for row in self.data:
-            if row[col] == val:
-                mt.data.append(row)
-        return mt 
+
+        if type(col_identifier) == type(1):
+            i = col_identifier
+        else:
+            i = self.column_names.index(col_identifier)
+
+        if as_list == False:
+            mt = MyPyTable()
+
+            for row in self.data:
+                if row[i] == val:
+                    mt.data.append(row)
+            return mt 
+        else:
+            data = []
+            for row in self.data:
+                if row[i] == val:
+                    data.append(row)
+            return data
+
+
+    def get_row_index(self,col_identifier,val):
+        if type(col_identifier) == type(1):
+            i = col_identifier
+        else:
+            i = self.column_names.index(col_identifier)
+        for j,row in enumerate(self.data):
+            if row[i]==val:
+                return j
+
+
     def how_many_vals_in_col (self,col):
         """
         """
@@ -543,7 +568,7 @@ class MyPyTable:
             newtable.data.append(copy.deepcopy(self.get_row(i)))
         return newtable
 
-    def normalize(self,intiger=False):
+    def normalize(self,intiger=False,sklearn=False):
         min = self.min()
         max = self.max()
         table = MyPyTable()
@@ -559,8 +584,48 @@ class MyPyTable:
             table.data.append(copy.deepcopy(line))
         return table
 
-    
+    def replace_column_data(self,col_identifier,data):
+        if len(data)!= len(self.data):
+            print("data lenght does not match mytables length")
+            print(len(self.data))
+            print(len(data))
+            return False
 
+        if type(col_identifier) == type(1):
+            i = col_identifier
+        else:
+            i = self.column_names.index(col_identifier)
 
-
+        for j,x  in enumerate(data):
+            self.data[j][i] = x
+        return self
             
+
+
+
+    
+    def normalize_collumn(self,col_identifier,intiger = False,maxval=100):
+        column = self.get_column(col_identifier)
+        normalized = []
+        maximum = max(column)
+        minimum = min(column)
+        bottom = maximum-minimum
+        for val in column:
+            normalized.append(((val-minimum)/bottom)*maxval)
+
+        
+       
+        ints = []
+        if intiger == True:
+            for val in normalized:
+                ints.append(int((val)))
+            normalized = ints
+        
+        # print(normalized)
+        
+
+        if self.replace_column_data(col_identifier,normalized) != False:
+            return self
+        else:
+            return False
+

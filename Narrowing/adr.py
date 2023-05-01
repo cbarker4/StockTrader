@@ -29,7 +29,7 @@ def best_daily_range(stocks,amount_of_stocks,days=None):
             
             avg.append([sum(diffrence)/len(diffrence),i])
 
-    avg = sorted(avg,key=itemgetter(0))
+    avg = sorted(avg,key=itemgetter(0),reverse=True)
     
     for f,val in enumerate(avg):
         print(val[0],stocks[avg[f][1]])

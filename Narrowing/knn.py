@@ -183,7 +183,8 @@ def knn_past(days_back=0):
                 num = mt.get_row(i+1)[0]
                 Y_train.append(num)
             else:
-                date.append(dates[-1])
+
+                date.append(dates[-1 + (-1*days_back)])
                 tickers.append(val)
                 num = mt.get_row(i+1)[0]
                 temp = copy.deepcopy(table.get_column(0))

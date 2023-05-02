@@ -79,9 +79,13 @@ def thisday(ticker,todayUnix):
     # todayUnix = todayUnix - (86400)
     yesterdayUnix= todayUnix + 86400 
 
-    # print((math.floor(todayUnix/86400)+4 )% 7)
+    print((math.floor(todayUnix/86400)+4 )% 7)
     if ((math.floor(todayUnix/86400)+4 )% 7) == 5:
         yesterdayUnix = (86400 *3) + yesterdayUnix
+    if ((math.floor(todayUnix/86400)+4 )% 7) == 6:
+        yesterdayUnix = (86400 *2) + yesterdayUnix
+    if ((math.floor(todayUnix/86400)+4 )% 7) == 7:
+        yesterdayUnix = (86400 *1) + yesterdayUnix
 
     res = finnhub_client.stock_candles(ticker, '1',todayUnix,yesterdayUnix)
     # print(res)

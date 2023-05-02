@@ -79,12 +79,12 @@ def thisday(ticker,todayUnix):
     # todayUnix = todayUnix - (86400)
     yesterdayUnix= todayUnix + 86400 
 
-    print((math.floor(todayUnix/86400)+4 )% 7)
+    # print((math.floor(todayUnix/86400)+4 )% 7)
     if ((math.floor(todayUnix/86400)+4 )% 7) == 5:
         yesterdayUnix = (86400 *3) + yesterdayUnix
 
     res = finnhub_client.stock_candles(ticker, '1',todayUnix,yesterdayUnix)
-    print(res)
+    # print(res)
     df = pd.DataFrame(res)
     df.to_csv("Data/todays/"+ticker+".csv")
 

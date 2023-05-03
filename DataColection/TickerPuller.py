@@ -78,7 +78,7 @@ def thisday(ticker,todayUnix):
     # todayUnix=int(time.mktime(today.timetuple()))
     # todayUnix = todayUnix - (86400)
     yesterdayUnix= todayUnix + 86400 
-
+    print("Day:",end=" ")
     print((math.floor(todayUnix/86400)+4 )% 7)
     if ((math.floor(todayUnix/86400)+4 )% 7) == 5:
         yesterdayUnix = (86400 *3) + yesterdayUnix

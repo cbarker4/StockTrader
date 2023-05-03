@@ -39,11 +39,13 @@ def best_daily_range(stocks,amount_of_stocks,days=None):
 
     
     good =[]
+    if len (stocks)< amount_of_stocks:
+        amount_of_stocks = len(stocks)
     for val in range(amount_of_stocks):
         good.append(stocks[avg[val][1]])
         if days!= None:
             days_out.append(avg[val][2])
-            print(days_out)
+            # print(days_out)
     
     if days!= None:
         return good, days_out

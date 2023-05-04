@@ -54,6 +54,7 @@ def knnPicks(yesterday=False):
                     num = int(int((((mt.get_row(i+1)[0])-little))/(big-little)*1000)/10)
                     Y_train.append(num)
                 else:
+                    tickers.append(val)
                     num = int(int((((mt.get_row(i+1)[0])-little))/(big-little)*1000)/10)
                     temp = copy.deepcopy(table.get_column(0))
                     X_train.append(copy.deepcopy(temp))

@@ -277,9 +277,13 @@ class MyPyTable:
         Args:
             row_indexes_to_drop(list of int): list of row indexes to remove from the table data.
         """
-        row_indexes_to_drop.sort(reverse = True)
-        for drop in row_indexes_to_drop:
-            self.data.pop(drop)
+        if type(row_indexes_to_drop) == type([]):
+            row_indexes_to_drop.sort(reverse = True)
+            for drop in row_indexes_to_drop:
+                self.data.pop(drop)
+        else:
+            self.data.pop(row_indexes_to_drop)
+
         pass
     def sort_on_column(self,column):
         """ sorts table on a given column
@@ -373,6 +377,7 @@ class MyPyTable:
         """
         self.data = [line for line in self.data if value not in line]
         pass
+
 
     def replace_missing_values_with_column_average(self, col_name):
         """For columns with continuous data, fill missing values in a column

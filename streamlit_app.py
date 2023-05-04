@@ -74,6 +74,7 @@ else:
     text = st.text_input("Enter ticket ex. AAPL")
     out = False
     if text:
+        text = text.upper()
         stocks = open("Results/Goingup.txt").readlines()
         for val in stocks:
             if text in val:
@@ -81,7 +82,7 @@ else:
                 out= True
                 break
         if not out:
-            st.write("Your Guess is better than ours we promis")
+            st.write("Your Guess is better than ours we promise")
         
 
 

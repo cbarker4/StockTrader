@@ -14,7 +14,7 @@ import time
 
 
 st.set_page_config( 
-    page_title="Hello",
+    page_title="Stock Trader",
     page_icon="👋",
 )
 # st.sidebar.success("Select a demo above.")
@@ -35,7 +35,7 @@ if page =='Trader':
         # st.write(val[0].replace(".csv",""))
         # mt = mypytable.MyPyTable()
         if True:
-            try:
+            # try:
                 print(TickerPuller.twenty_four(val[0].replace(".csv","")) )
                 time.sleep(1.1) 
         
@@ -63,8 +63,8 @@ if page =='Trader':
                 if val[2] == 1:
                     st.write("Price to Sell at: " + str(val[3]))
                 
-            except:
-                pass    
+            # except:
+            #     pass    
         
                 
 

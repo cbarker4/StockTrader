@@ -18,7 +18,7 @@ st.set_page_config(
     page_icon="👋",
 )
 # st.sidebar.success("Select a demo above.")
-page = st.sidebar.selectbox('Select page',['Trader','Predictor']) 
+page = st.sidebar.selectbox('Select page',['Predictor','Trader']) 
 if page =='Trader':
     st.write("# Stock Trader")
     st.write("## Recomended stocks to trade: ")
@@ -69,6 +69,7 @@ if page =='Trader':
                 
 
 else:   
+    st.write("# Stock Trader")
     st.write("### What stock would you like to know if it will go up")
     text = st.text_input("Enter ticket ex. AAPL")
     out = False

@@ -1,7 +1,8 @@
 # StockTrader
 Final Data Science Project
 
-## NAME OF WRITE UP: WRITE_UP.pdf
+## WRITE UP LOCATION: 
+https://docs.google.com/document/d/1Br7Wq7NinaoqHOne7QeRZmVRmjsoCIQGDvpj81HQjZE/edit?usp=sharing 
 
 
 # Info:
